@@ -100,6 +100,7 @@ button {
   background-color: #44c697;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .visually_hidden {
@@ -913,4 +914,18 @@ button {
 .button-submit {
   margin: 0 auto;
   display: block;
+}
+
+.preferences_btn {
+  fill: #fff;
+  stroke: #fff;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.preferences_btn:hover,
+.preferences_btn:focus {
+  fill: #1e2e36;
+  stroke: #1e2e36;
+  background: #fff;
 }
