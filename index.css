@@ -704,12 +704,83 @@ button {
   margin-right: 15px;
 }
 
+.footer_left_group {
+  display: flex;
+}
+
+.footer_group {
+  display: flex;
+  flex-direction: column;
+}
+
 .copyright {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
-.copyright__glanets {
+.footer_group__menu {
+  display: flex;
+}
+
+.footer__menu {
+  margin-right: 55px;
   text-transform: uppercase;
-  font-size: 14px;
+}
+
+.footer__menu a {
+  position: relative;
+}
+
+.footer__menu a::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  width: 15px;
+  height: 2px;
+  background-color: #44c697;
+}
+
+.schedule {
+  margin-left: 100px;
+}
+
+.schedule li {
+  margin-bottom: 16px;
+}
+
+.schedule li:last-child {
+  margin-bottom: 0px;
+}
+
+.schedule_item {
+  display: flex;
+  align-items: center;
+}
+
+.footer_social {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.footer_social__icons {
+  display: flex;
+}
+
+.footer_icons__svg {
+  fill: #fff;
+}
+
+.footer_icons__svg:hover,
+.footer_icons__svg:focus {
+  fill: #44c697;
+}
+.footer_phone_link {
+  color: #44c697;
+}
+
+.footer_phone_icon {
+  stroke: #fff;
+  fill: #1e2e36;
 }
