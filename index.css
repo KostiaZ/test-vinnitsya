@@ -887,20 +887,6 @@ button {
   margin-bottom: 30px;
 }
 
-.checkbox {
-  position: absolute;
-}
-
-.check-control {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
-  height: 15px;
-  border: 2px solid #212121;
-  border-radius: 2px;
-}
-
 .policy-input {
   display: flex;
   align-items: center;
