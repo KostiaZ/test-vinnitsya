@@ -164,7 +164,8 @@ class ItcSlider {
     if (
       !(
         e.target.closest(".itc-slider__btn") ||
-        e.target.closest(".itc-slider__indicators")
+        e.target.closest(".itc-slider__indicators") ||
+        e.target.closest(".itc-slider__banner_btn")
       )
     ) {
       return;

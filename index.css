@@ -294,6 +294,7 @@ button {
 }
 
 .banner {
+  padding-left: 50px;
   max-width: 1920px;
   height: 785px;
   background-image: url(./img/banner.jpg);
@@ -347,18 +348,6 @@ button {
 
 .banner_ad__right {
   transform: rotate(180deg);
-}
-
-.banner_ad__right,
-.banner_ad__left {
-  stroke: #1e2e36;
-}
-
-.banner_ad__left:hover,
-.banner_ad__right:hover,
-.banner_ad__left:focus,
-.baner_ad__right:focus {
-  stroke: #44c697;
 }
 
 .preferences {
@@ -928,4 +917,17 @@ button {
   fill: #1e2e36;
   stroke: #1e2e36;
   background: #fff;
+}
+
+.banner_btn {
+  fill: #1e2e36;
+  stroke: #1e2e36;
+}
+
+.banner_btn:hover,
+.banner_btn:focus {
+  fill: #fff;
+  stroke: #fff;
+  background-color: #1e2e36;
+  border-radius: 50%;
 }
