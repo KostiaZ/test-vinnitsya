@@ -68,7 +68,7 @@ body {
 }
 
 section {
-  width: 1920px;
+  max-width: 1920px;
   margin: auto;
   padding-left: 51px;
   padding-right: 51px;
