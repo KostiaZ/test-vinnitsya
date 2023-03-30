@@ -177,7 +177,7 @@
               </svg>
               <p class="cart_text">кошик</p>
             </a>
-            <button type="button">замовити дзвінок</button>
+            <button type="button" data-modal-open>замовити дзвінок</button>
           </div>
         </div>
       </section>
@@ -629,5 +629,36 @@
         <div class="footer__right"></div>
       </section>
     </footer>
+        <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <h2 class="modal-title">Залиште свої дані, ми Вам передзвонимо</h2>
+            <form class="form" autocomplete="on">
+                <div class="form-field">
+                    <label for="name" class=form-label>Імʼя</label>
+                        <input type="text" id="name" class="form-input">
+                </div>
+                <div class="form-field">
+                    <label for="tel" class=form-label>Телефон</label>
+                        <input type="tel" id="tel" class="form-input">
+                </div>
+                <div class="form-textarea">
+                    <label for="comment" class="form-label">Коментар</label>
+                    <textarea class="textarea-input" name="comment" id="comment" placeholder="Напишіть коментар"></textarea>
+                </div>
+                <div class="policy">
+                    <label for="policy" class="policy-input">
+                        <div class="check-control">
+                            <input type="checkbox" id="policy" class="checkbox visually-hidden">
+                         
+                        </div>
+                        <p class="terms">Згоден з <a class="terms-link" href="#">умовами</a></p>
+                    </label>
+                    </input>
+                </div>
+                <button class="button-submit" type="submit">Відправити</button>
+              </form>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
